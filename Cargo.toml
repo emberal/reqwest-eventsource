@@ -20,7 +20,7 @@ futures-core = "0.3.5"
 pin-project-lite = "0.2.8"
 nom = "7.1.0"
 mime = "0.3.16"
-futures-timer = "3.0.2"
+futures-timer = { version = "3.0.2", features = ["wasm-bindgen"] }
 thiserror = "1.0.30"
 
 [dev-dependencies]
